@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness</title>
+
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8ddf321cf8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="https://kit.fontawesome.com/41c2d96db2.js" crossorigin="anonymous"></script>
+
+
 </head>
+
 <body>
     <header>
-        <section>
-            <div>
-                <div class="header">
-                    <h2><i>Fitness</i></h2>
-                    <i id="fa-solid" class="fa-solid fa-bars"></i>
-                    
-                    <ul class="navbar">
-                        <li><span class="span1">Home</span></li>   
-                        <li>Service</li>
-                        <li>Contact</li>
-                        <li>About</li>
-                    </ul>
-                </div>
-                <div class="bck-img">
-                    <div>
-                        <h1>Get Body in <br> <span>Shape</span> & Stay <br>Healthy.</h1>
-                    <p class="bck-img-p">A huge selection of health and fitness content, healthy recipes
-                        and <br> transformation stories to help you get fit and stay fit!</p>
-                    <button class="btn1">Join Club Now</button>
-                    <button class="btn2">Download App</button>
-                    </div>
-                    <div>
-                        <img class="bbuilder" src="images/Images 2.png" alt="">
-                        <button class="btn-blur">
-                            <i  class="fa-regular fa-circle-play" ></i>
-                            <span id="s1">350+</span><br>
-                            <span id="s2">video tutorial</span>
-                        </button>
-                    </div>
-                    <div> <button class="bbuilder2">
-                        <span id="s1">500+</span> <br>
-                        <span id="s2">Free Workout Videos</span>
-                    </button></div>
-                    
+        <nav class="nav-bar container">
+            <h1 class="brand">Fitness</h1>
+            <ul class="nav-items">
+                <li><a class="nav-link-home" href="#">Home</a></li>
+                <li><a class="nav-link" href="#">Service</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+                <li><a class="nav-link" href="#">About</a></li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+
+        <!-- Hero section  -->
+        <section class="hero-section container">
+
+            <div class="hero-text">
+                <h1 class="hero-title">Get body in <br> <span id="shape">shape</span> & stay <br> healthy</h1>
+                <p class="description hero-des">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <div class="hero-btn-part">
+                    <button class="join-btn">Join Club Now!</button>
+                    <button class="download-btn">Download App</button>
                 </div>
             </div>
-        
-        </section>
-        
-    </header>
+            <div class="hero-img-part">
+                <div class="blur-2">
 
+
+                    <h3 class="video-count">500+</h3>
+                    <p class="description">Free Workout Videos</p>
+
+                </div>
+                <img class="hero-img" src="./images/Images 2.png " alt="">
+                <div class="blur-1">
+                    <div class="blur-1-circle"></div>
+                    <div>
+                        <h3 class="video-count">350+</h3>
+                        <p class="description">Video tutorial</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </header>
     
 </body>
 </html>
