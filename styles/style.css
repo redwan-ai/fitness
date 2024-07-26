@@ -169,6 +169,49 @@ header {
 
 }
 
+/*Habits-Section*/
+
+.habits{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.habits>h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.habits>p{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+.habits-grid{
+    display: flex;
+justify-content: center;
+padding-top: 60px;
+gap: 30px;
+margin: 0 60px;
+}
+.h-g {
+    border-radius:50%;
+    border: 1px solid whitesmoke;
+}
+.habits-grid>div>h4{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.habit-des{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
   .container {
@@ -258,4 +301,12 @@ header {
       font-size: 20px;
       font-weight: 700;
   }
+  .habits>h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.habits-grid{
+    flex-direction: column;
+}
+
 }
