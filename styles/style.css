@@ -205,6 +205,49 @@ margin: 0 60px;
 .habit-des{
     padding-top: 20px;
 }
+/*run an extra mile*/
+
+.run-extra{
+    display: flex;
+    margin: 100px 200px;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 54px 41px;
+    border-radius: 16px;
+    
+
+}
+.run-extra>div>h2{
+    font-size: 3rem;
+    margin-left: 22px;
+}
+.run-des{
+    
+    margin: 20px 22px;
+    word-wrap: break-word;
+    word-spacing: 1 rem;
+}
+
+
+.run-img-part {
+    max-width: 360px;
+    max-height: 310px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.run-img-part>img{
+    width: 200%;
+    position: relative;
+    left: -270px;
+}
+
+.run-btn{
+    margin-left: 22px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 
@@ -308,5 +351,24 @@ margin: 0 60px;
 .habits-grid{
     flex-direction: column;
 }
-
+.run-extra{
+flex-direction: column;
+margin:auto 45px;
+}
+.run-btn{
+    border-radius: 40px;
+    width: 80%;
+    padding: 15px 15px 15px 0;
+    justify-content: center;
+    text-align: center;
+    margin:40px 38px;
+}
+.run-img-part{
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 50px;
+    width: 100%;
+        position: static;
+        margin: auto;
+}
 }
