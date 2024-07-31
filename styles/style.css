@@ -580,12 +580,13 @@ table{
     }
 
 .form-action>div>form{
+    width: 20%;
     margin-left: 35px;
    column-gap: 10px;
 }
 
 .form-action>div>form input,select{
-    padding: 6px 1px;
+    padding: 6px 0px;
 
 }
 .cal{
@@ -594,7 +595,7 @@ table{
     font-weight: 400;
 }
 .meet-team{
-    margin: 0 30px;
+    margin: auto;
 }
 .meet-team-heading {
     max-width: 90%;
