@@ -462,7 +462,7 @@ margin:auto 45px;
     padding: 15px 15px 15px 0;
     justify-content: center;
     text-align: center;
-    margin:40px 38px;
+    margin:40px 35px;
 }
 .run-img-part{
     text-align: center;
@@ -495,10 +495,15 @@ margin:auto 45px;
 .bmi-calculator-math{
     flex-direction: column;
     gap: 0px;
+    padding-bottom: 60px;
 }
 table{
     width: 70%;
     margin-left: 90px;
+}
+.calculate-bmi-container{
+    max-width: 70%;
+    margin-left: -10px;
 }
 .calculate-bmi>h2{
     padding-bottom: 10px;
@@ -511,6 +516,12 @@ table{
     margin-bottom: 5px;
     
 }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    }
 
 .form-action>div>form{
     margin-left: 35px;
