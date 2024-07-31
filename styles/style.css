@@ -354,6 +354,61 @@ select{
     margin-top: 30px;
     margin-bottom: -80px;
 }
+/*meet-team*/
+.meet-team{
+    margin: 0 120px;
+}
+.meet-team-heading{
+    text-align: center;
+
+}
+.meet-team-heading>h1{
+    margin-top: 60px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.meet-team-heading>p{
+    margin-top: 20px;
+    padding-bottom: 25px;
+    font-size: 22px;
+}
+.our-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 10px;
+    justify-items: center;
+    background-color: rgba(128, 128, 128, 0.288);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.train {
+    position: relative;
+    width: 380px;
+    height: 280px;
+}
+
+.train img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter: brightness(.80);
+}
+
+.trainer-des {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+.trainer-des>h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.trainer-des>p{
+    font-size: 22px;
+}
 
 
 
@@ -492,6 +547,7 @@ margin:auto 45px;
     font-size: 1.3rem;
 
 }
+
 .bmi-calculator-math{
     flex-direction: column;
     gap: 0px;
@@ -527,12 +583,31 @@ table{
     margin-left: 35px;
    column-gap: 10px;
 }
+
 .form-action>div>form input,select{
-    padding: 8px 1px;
+    padding: 6px 1px;
 
 }
 .cal{
     margin-top: 10px;
     font-size: 1.5rem;
     font-weight: 400;
-}}
+}
+.meet-team{
+    margin: 0 30px;
+}
+.meet-team-heading {
+    max-width: 90%;
+}
+
+.our-team{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.train{
+    width: 95%;
+    height: 90%;
+}
+
+
+}
