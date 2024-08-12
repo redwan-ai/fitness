@@ -413,10 +413,10 @@ select{
 .footer{
     display: flex;
     justify-content: space-around;
-    margin: 20px 130px;
+    margin: 20px 110px;
 }
 .footer1{
-    margin-right: -20px;
+    margin-left: -60px;
 }
 .footer>div>h1{
     font-size: 4.5rem;
@@ -653,6 +653,15 @@ table{
     width: 95%;
     height: 90%;
 }
-
+.footer{
+    flex-direction: column;
+}
+.footer1{
+    padding-bottom: 20px;
+}
+.gs{
+    margin-left: -60px;
+    margin-top: 10px;
+}
 
 }
