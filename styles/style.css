@@ -357,6 +357,7 @@ select{
 /*meet-team*/
 .meet-team{
     margin: 0 120px;
+    margin-bottom: 70px;
 }
 .meet-team-heading{
     text-align: center;
@@ -409,7 +410,50 @@ select{
 .trainer-des>p{
     font-size: 22px;
 }
-
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 130px;
+}
+.footer1{
+    margin-right: -20px;
+}
+.footer>div>h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer>div>p{
+    font-weight: 400;
+}
+.gs{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.gs>h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 600;
+}
+.gs>a{
+    text-decoration: none;
+    margin: 8px 0;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+hr{
+    opacity: 50%;
+}
+.copyright{
+color: gray;
+text-align: center;
+margin: 16px 0;
+font-size: 18px;
+font-weight: 400;
+}
 
 
 @media screen and (max-width:576px) {
